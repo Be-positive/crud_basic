@@ -1,0 +1,71 @@
+.hideMyComment {
+  display: none;
+}
+
+.table {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.table #mainForm #mainTable {
+  background-color: #000000;
+  color: #fff;
+  margin-top: 1em;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.table #mainForm #mainTable tbody tr td .changeBtn {
+  padding: 0.1em 1em;
+  color: gold;
+  cursor: pointer;
+  background-color: #746e5f;
+}
+
+.table #mainForm #mainTable tbody tr td i {
+  cursor: pointer;
+  color: red;
+}
+
+.table .addForm form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.table .addForm form div {
+  margin-right: 0.5em;
+}
+
+.table .addForm form div label {
+  margin-right: 0.2em;
+}
+
+.table .addForm #addNewBtn {
+  margin-top: 1em;
+  padding: 0.2em 3em;
+  background-color: #000000;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.table .addForm #addNewBtn:hover {
+  color: #000000;
+  background-color: #fff;
+}
+/*# sourceMappingURL=Table.css.map */
